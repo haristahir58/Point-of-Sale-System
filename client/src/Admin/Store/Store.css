@@ -1,0 +1,116 @@
+.new {
+    width: 100%;
+    display: flex;
+  }
+  
+  .newContainer {
+    flex: 6;
+  }
+  
+  .newContainer .top,
+  .newContainer .bottom {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+  }
+  
+  .newContainer .top h1,
+  .newContainer .bottom h1 {
+    color: lightgray;
+    font-size: 20px;
+  }
+  
+  .newContainer .top .left,
+  .newContainer .bottom .left {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .newContainer .top .left img,
+  .newContainer .bottom .left img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .newContainer .top .right,
+  .newContainer .bottom .right {
+    flex: 2;
+  }
+  
+  .newContainer .top .right form,
+  .newContainer .bottom .right form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: space-around;
+  }
+  
+  .newContainer .top .right form .formInput,
+  .newContainer .bottom .right form .formInput {
+    width: 40%;
+  }
+  
+  .newContainer .top .right form .formInput label,
+  .newContainer .bottom .right form .formInput label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .newContainer .top .right form .formInput label .icon,
+  .newContainer .bottom .right form .formInput label .icon {
+    cursor: pointer;
+  }
+  
+  .newContainer .top .right form .formInput input,
+  .newContainer .bottom .right form .formInput input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+  
+  .newContainer .top .right form .button,
+  .newContainer .bottom .right form .button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 96px;
+  }
+  
+
+  /* Store.css */
+/* ... other styles ... */
+
+/* Style for select options */
+.selctOptions {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #333;
+}
+
+
+.textArea {
+  width: 100%;
+  height: 100px; 
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #333;
+  resize: none; 
+}
+
